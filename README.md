@@ -10,6 +10,31 @@ A classic Tetris game implementation in Go, created using Windsurf IDE.
 - Terminal-based graphics
 - Smooth animations and controls
 
+## Running the Game
+
+### Using Docker
+
+1. Pull the latest image:
+```bash
+docker pull duhblinn/tetris-go-vibe:latest
+```
+
+2. Run the container:
+```bash
+docker run -it duhblinn/tetris-go-vibe:latest
+```
+
+### Local Development
+
+## Requirements
+
+- Go 1.21 or later
+- Terminal with ANSI escape code support
+
+```bash
+go run main.go
+```
+
 ## How to Play
 
 1. Run the game using one of these methods:
@@ -29,11 +54,6 @@ A classic Tetris game implementation in Go, created using Windsurf IDE.
    - Complete lines will be cleared, earning you points
    - The game ends when pieces stack to the top of the screen
    - Try to create as many complete lines as possible!
-
-## Requirements
-
-- Go 1.18 or later
-- Terminal with ANSI escape code support
 
 ## Development
 
