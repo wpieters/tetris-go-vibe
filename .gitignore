@@ -1,0 +1,39 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.pdb
+*.test
+*.out
+*.prof
+
+# Go dependencies
+vendor/
+bin/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+*.bak
+*.tmp
+*.backup
+
+# Test coverage
+coverage.out
+
+# Debug symbols
+*.pdb
